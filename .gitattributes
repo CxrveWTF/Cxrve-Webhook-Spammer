@@ -1,0 +1,16 @@
+# Set default behavior for text files
+* text=auto
+
+# Force Git to treat the `.bat` files as text
+*.bat text
+
+# Treat Python files as text
+*.py text
+
+# Use Unix-style line endings in all files
+* text eol=lf
+
+# Mark certain files as binary (e.g., images, videos)
+*.png binary
+*.jpg binary
+*.gif binary
